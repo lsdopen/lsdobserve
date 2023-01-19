@@ -1,0 +1,7 @@
+{
+  "aliases": {
+    "filebeat-7.17.7-project": {
+      "is_write_index": true
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "override": true,
+  "index_pattern": {
+    "id": "filebeat-7.17.7-k8s",
+    "title": "filebeat-7.17.7-k8s-*",
+    "timeFieldName": "@timestamp"
+  }
+}

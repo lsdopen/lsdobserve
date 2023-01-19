@@ -1,0 +1,18 @@
+dependencies:
+- name: prometheus
+  repository: https://prometheus-community.github.io/helm-charts
+  version: 15.1.1
+- name: prometheus-blackbox-exporter
+  repository: https://prometheus-community.github.io/helm-charts
+  version: 5.3.1
+- name: eck-operator
+  repository: https://helm.elastic.co
+  version: 2.4.0
+- name: grafana
+  repository: https://grafana.github.io/helm-charts
+  version: 6.21.1
+- name: logstash
+  repository: https://helm.elastic.co
+  version: 7.17.3
+digest: sha256:8ce08f6d3d8d7303e76d1d754e05391aff30afb2903c54eb2b177c7e62e54d75
+generated: "2022-11-01T09:15:34.419845566+02:00"
