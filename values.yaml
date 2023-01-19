@@ -307,6 +307,14 @@ grafana:
             path: /var/lib/grafana/dashboards/ds-kfk-06
           orgId: 1
           type: file
+        - disableDeletion: false
+          editable: false
+          folder: SSL-Monotoring
+          name: sslmonitoring
+          options:
+            path: /var/lib/grafana/dashboards/sslmonitoring
+          orgId: 1
+          type: file          
   dashboardsConfigMaps:
     ds-01: "grafana-dashboard-kubernetes-overview"
     ds-02: "grafana-dashboard-namespace-details"
@@ -319,6 +327,7 @@ grafana:
     ds-kfk-04: "strimzi-kafka-dashboard"
     ds-kfk-05: "strimzi-operators-dashboard"
     ds-kfk-06: "strimzi-zookeeper-dashboard"
+    sslmonitoring: "ssl-monitoring"
   imageRenderer:
     enabled: false
     replicas: 1

@@ -87,3 +87,11 @@ metadata:
 data:
   strimzi-zookeeper-dashboard.json: |-
 {{ .Files.Get "dashboards/kafka/strimzi-zookeeper.json" | indent 4}}
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ssl-monitoring
+data:
+  SSL-Monotoring.json: |-
+{{ .Files.Get "dashboards/sslmonitoring/SSL-Monitoring.json" | indent 4}}
